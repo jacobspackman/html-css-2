@@ -1,0 +1,77 @@
+body {
+    margin:0;
+    padding:0;
+    max-width: 100%;
+}
+
+.box-1 {
+    box-sizing: border-box;
+    border: 5px solid black;
+    height: 175px;
+    margin: 20px 20px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.skinny-box{
+    height: 100px;
+    width: 30px;
+    background-color: rgb(137, 2, 247);
+    margin: 10px 50px 10px 10px;
+}
+
+.green-box{
+    height: 155px;
+    width: 300px;
+    background-color: green;
+    margin: 5px 50px 5px 5px;
+}
+
+.cirle{
+    height: 155px;
+    width: 155px;
+    background-color: lightblue;
+    margin: 5px 50px 5px 5px;
+    border-radius: 90px;
+}
+
+.box-2 {
+    height: 225px;
+    border: 5px dotted black;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadowed-box{
+    width: 90%;
+    height: 150px;
+    background-color: rgb(255, 247, 194);
+    box-shadow: 5px 5px 5px;
+}
+
+.box-3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-3 > div{
+    height: 250px;
+    width: 400px;
+    box-shadow: 1px 1px 5px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    margin:0px;
+    letter-spacing: 6px;
+    font-weight: 800;
+    color: rgb(69, 0, 173);
+    font-size: 20px;
+}
